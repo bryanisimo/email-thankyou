@@ -1,0 +1,30 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+#main-bg{
+  min-height: 100%;
+  min-width: 100%;
+  background-image: url(../images/bg.png);
+}
+header{
+  background-color: #1DBEC6;
+}
+header .circle{
+  background-color: white;
+  border-radius: 50%;
+  width: 14em;
+  height: 14em;
+}
+header .circle img.hand{
+  width: 10em;
+  height: 10em;
+}
+button{
+  border: 0;
+  padding: 0.5em;
+  background-color: #DDCFAD;
+}
+section.content{
+  background-color: white;
+}
